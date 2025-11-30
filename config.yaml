@@ -1,0 +1,12 @@
+universal_agent:
+  start: start.sh
+  dockerfile: Dockerfile
+  env_vars:
+    DATA_PATH: "/home/data"
+    COMPETITION_ID: ""
+    OUTPUT_PATH: "/home/data/submission.csv"
+    EPOCHS: 2
+    BATCH_SIZE: 32
+  kwargs: {}
+  kwargs_type: argparse
+  privileged: false

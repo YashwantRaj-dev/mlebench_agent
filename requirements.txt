@@ -1,0 +1,13 @@
+torch
+torchvision
+timm
+transformers
+datasets
+sentencepiece
+tokenizers
+tqdm
+pandas
+numpy
+scikit-learn
+lightgbm
+Pillow
