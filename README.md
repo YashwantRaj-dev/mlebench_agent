@@ -19,9 +19,16 @@ It infers the problem type from metadata and dataset structure, selects the appr
 - Cross-validation and early stopping for stability
 
 ### To run the agent, need to specify the following environment variables :
->> $env:DATA_PATH="C:\Users\Yashwant Raj\AppData\Local\mle-bench\data\aerial-cactus-identification\prepared\public"
->> $env:OUTPUT_PATH="submission.csv"
->> $env:COMPETITION_ID="aerial-cactus-identification"
+The following example is for the "Aerial Cactus Identification" competition. The path to the dataset and other parameters should be modified as per the competition.
+
+```bash
+$env:DATA_PATH="C:\Users\Yashwant Raj\AppData\Local\mle-bench\data\aerial-cactus-identification\prepared\public"
+$env:OUTPUT_PATH="submission.csv"
+$env:COMPETITION_ID="aerial-cactus-identification"
+```
 
 ### Once the environment variables are set, execute the agent with:
->> python my_agent_c.py
+```bash
+python my_agent_c.py
+```
+
