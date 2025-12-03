@@ -33,8 +33,8 @@ python my_agent_c.py
 ```
 
 ### Evaluation metrics supported:
-SIIM-ISIC Melanoma Classification : AUC-ROC
-Spooky Author Identification : Accuracy
-Tabular Playground Series — May 2022 : Accuracy
-Text Normalization Challenge (English) : BLEU score (or exact-match ratio) for normalized output vs. reference
-ICML-2013 Whale Challenge (Right Whale Redux) : Accuracy
+- SIIM-ISIC Melanoma Classification : AUC-ROC
+- Spooky Author Identification : Accuracy
+- Tabular Playground Series — May 2022 : Accuracy
+- Text Normalization Challenge (English) : BLEU score (or exact-match ratio) for normalized output vs. reference
+- ICML-2013 Whale Challenge (Right Whale Redux) : Accuracy
